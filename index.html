@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SILVERLABS</title>
+<meta name="description" content="SILVERLABS builds simple, focused mobile apps for Android.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#1E3A2F;--secondary:#D95D39;--sage:#7D8B6E;--page:#f5ecda;--card:#faf1de;--border:#e4d8c0;--beige:#efe5d1;--text:#1f1a12;--muted:#6b6455}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--text);font:16px/1.65 "Work Sans",system-ui,sans-serif}
+h1,h2,.logo,.label,nav a{font-family:"Space Grotesk",system-ui,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:16px;padding-bottom:16px}
+.logo{font-weight:700;letter-spacing:.14em;color:var(--primary);text-decoration:none;font-size:18px}
+nav{background:var(--beige);border:1px solid var(--border);border-radius:999px;padding:4px;display:flex;gap:2px}
+nav a{color:var(--text);text-decoration:none;font-size:14px;font-weight:500;padding:8px 14px;border-radius:999px;min-height:36px}
+nav a.active{background:var(--primary);color:var(--page)}
+.hero{padding:48px 0 24px}
+.label{color:var(--secondary);text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:700;margin:0 0 10px}
+h1{font-size:2.5rem;line-height:1.1;margin:0 0 16px;color:var(--primary)}
+h2{font-size:1.2rem;margin:0 0 8px;color:var(--primary)}
+p{margin:0 0 14px}
+.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:20px;margin:16px 0;box-shadow:0 2px 8px rgba(31,26,18,.06)}
+.btn{display:inline-block;background:var(--primary);color:var(--page);text-decoration:none;font-family:"Space Grotesk",sans-serif;font-weight:500;padding:12px 22px;border-radius:999px;min-height:44px}
+.chip{display:inline-block;background:var(--beige);border:1px solid var(--border);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--muted)}
+a{color:var(--primary)}
+section+section{margin-top:32px}
+footer{margin-top:56px;padding:24px 0;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="index.html">SILVERLABS</a>
+  <nav><a href="index.html" class="active">Home</a><a href="privacy.html">Privacy Policy</a></nav>
+</div></header>
+<main class="wrap">
+  <section class="hero">
+    <p class="label">Android app studio</p>
+    <h1>Simple apps, built with care.</h1>
+    <p class="muted">SILVERLABS is a small developer studio making focused mobile apps for Android.</p>
+  </section>
+  <section>
+    <h2>About</h2>
+    <p>We design and build lightweight apps that do one thing well: clean interfaces, no clutter, and respect for your privacy.</p>
+  </section>
+  <section>
+    <h2>Our apps</h2>
+    <div class="card"><span class="chip">Coming soon</span><h2 style="margin-top:10px">First apps in development</h2><p class="muted" style="margin:6px 0 0">Our first apps will be available on Google Play.</p></div>
+  </section>
+  <section>
+    <h2>Contact</h2>
+    <p>Questions, feedback or support: <a href="mailto:silverlabs118@gmail.com">silverlabs118@gmail.com</a></p>
+  </section>
+</main>
+<footer><div class="wrap">&copy; 2026 SILVERLABS. All rights reserved.</div></footer>
+</body>
+</html>
